@@ -1,11 +1,15 @@
 
 img {
-    width: 70%;
+    width: 60%;
     height: auto;
   };
+div.socials {
+    font-size: 12pt;
+}
 
-div:hover,
-div:focus {
+
+div.socials:hover,
+div.socials:focus {
     color: goldenrod;
     background: #C10606;
     font: italic bold 17px serif;
