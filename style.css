@@ -1,5 +1,13 @@
 
 img {
-    width: 50%;
+    width: 70%;
     height: auto;
   };
+
+div:hover,
+div:focus {
+    color: goldenrod;
+    background: #C10606;
+    font: italic bold 17px serif;
+    transition: all 0.5s;
+}
