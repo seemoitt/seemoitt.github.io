@@ -6,4 +6,12 @@ img {
 div.socials {
     font-size: 12pt;
     width: auto;
-};
+}
+
+
+div.socials.a:hover,
+div.socials:focus {
+    color: goldenrod;
+    background: #000000;
+    transition: all 0.5s;
+}
