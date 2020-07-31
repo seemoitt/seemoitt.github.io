@@ -5,13 +5,5 @@ img {
   };
 div.socials {
     font-size: 12pt;
-}
-
-
-div.socials:hover,
-div.socials:focus {
-    color: goldenrod;
-    background: #C10606;
-    font: italic bold 17px serif;
-    transition: all 0.5s;
-}
+    width: auto;
+};
