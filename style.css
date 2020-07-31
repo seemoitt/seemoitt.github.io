@@ -10,7 +10,7 @@ div.socials {
 
 
 div.socials.a:hover,
-div.socials:focus {
+div.socials.a:focus {
     color: goldenrod;
     background: #000000;
     transition: all 0.5s;
