@@ -1,5 +1,5 @@
 html {
-    margin: 0.2em 4%;
+    margin: 0.2em 0 0.2em 4%;
     max-width: 7000px; 
     font-family: 'Martel', serif;
 }
@@ -20,7 +20,7 @@ h3.profile {
 }
 
 .bio {
-    font-size: 2.8vmin;
+    font-size: 2.9vmin;
     padding: 1px 1px;
     margin-top: 0.2%;
     margin-bottom: 0.1%;
@@ -46,7 +46,7 @@ p span:focus {
 }
 
 .socials a {
-    font-size: 2.75vmin;
+    font-size: 2.8vmin;
     margin-right: 0.7%;
     padding: 0.1%;
 }
