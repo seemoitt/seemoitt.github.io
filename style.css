@@ -1,25 +1,38 @@
 html {
-    padding-left: 7%;
+    padding-left: 6.5%;
+    margin-top: 0.2em;
+    max-width: 7000px; 
+    font-family: 'Martel', serif;
+}
+
+h1 {
+    font-size: 3.6vmin;
+    margin-bottom: 1.8%;
 }
 
 img {
-    width: 60%;
-    height: auto;
+    max-width: 60%;
+    height: 33.75%;
 }
-div.socials {
-    font-size: 12pt;
-    display: inline-block;
+
+h3.profile {
+    font-size: 3.35vmin;
+    margin-bottom: 0;
 }
 
 .bio {
+    font-size: 2.8vmin;
+    padding: 1px 1px;
+    margin-top: 0.2%;
+    margin-bottom: 0.1%;
+    margin-right: 20%;
     display: inline-block;
 }
 
-span:hover,
-span:focus {
+p span:hover,
+p span:focus {
     color: white;
-    background: #100e0edc;
-    transition: all 0.6s ease-in;
+    transition: all 0.6s ease-in-out;
 }
 
 .bio:hover,
@@ -27,6 +40,21 @@ span:focus {
     color: goldenrod;
     background: #100e0e;
     transition: all 0.65s ease-in-out;
+}
+
+.links {
+    font-size: 2.9vmin;
+    margin-bottom: 0.5%;
+}
+
+.socials a {
+    font-size: 2.75vmin;
+    margin-right: 0.7%;
+    padding: 0.1%;
+}
+
+div.socials {
+    font-size: 1vmax;
 }
 
 a:link {
