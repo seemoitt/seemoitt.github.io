@@ -12,6 +12,9 @@ h1 {
 img {
     max-width: 60%;
     height: 33.75%;
+    padding: 0.2vw;
+    border: 0.45vw double #054e3c;
+    border-radius: 15px 50px 30px; 
 }
 
 h3.profile {
@@ -21,9 +24,11 @@ h3.profile {
 
 .bio {
     font-size: 2.9vmin;
-    padding: 1px 1px;
-    margin: 0.2% auto 0.1% auto;
+    margin: 0.2% 2% 0.1% auto;
     display: inline-block;
+    padding: 0.05vw 0.5vw;
+    border-radius: 0.5em;
+    border: 0.2em double #ffffff;
 }
 
 p span:hover,
@@ -34,8 +39,9 @@ p span:focus {
 
 .bio:hover,
 .bio:focus {
-    color: goldenrod;
-    background: #100e0e;
+    color: #100e0e;
+    background: goldenrod;
+    border: 0.2em double #000000;
     transition: all 0.65s ease-in-out;
 }
 
@@ -46,8 +52,10 @@ p span:focus {
 
 .socials a {
     font-size: 2.8vmin;
-    margin-right: 0.7%;
-    padding: 0.1%;
+    margin-right: 0.3%;
+    border-radius: 0.5em;
+    padding: 0.2% 0.29%;
+    border: 0.2em double #054e3c;
 }
 
 div.socials {
@@ -64,11 +72,13 @@ a:visited {
 div.socials a:hover,
 div.socials a:focus {
     color: goldenrod;
-    background: #000000;
+    background: #161616;
+    border: 0.2em double #ffffff;
     transition: all 0.5s;
 }
 
 /*
+GRADIENT CODE COPY
 body {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
@@ -86,4 +96,22 @@ body {
         background-position: 0% 50%;
     }
 }
+
+PSEUDO CLASS orig COPY FOR REVERT
+.bio:hover,
+.bio:focus {
+    color: goldenrod;
+    background: #100e0e;
+    transition: all 0.65s ease-in-out;
+
+PSEUDO CLASS switch COPY
+.bio:hover,
+.bio:focus {
+    color: #100e0e;
+    background: goldenrod;
+    transition: all 0.65s ease-in-out;
+}
+
+}
+
 */
