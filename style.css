@@ -1,6 +1,5 @@
 html {
-    padding-left: 6.5%;
-    margin-top: 0.2em;
+    margin: 0.2em 4%;
     max-width: 7000px; 
     font-family: 'Martel', serif;
 }
@@ -25,7 +24,6 @@ h3.profile {
     padding: 1px 1px;
     margin-top: 0.2%;
     margin-bottom: 0.1%;
-    margin-right: 20%;
     display: inline-block;
 }
 
