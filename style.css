@@ -37,6 +37,7 @@ p span:focus {
     transition: all 0.6s ease-in-out;
 }
 
+/* TO ADD: loading bars for et c. et c.*/
 .bio:hover,
 .bio:focus {
     color: #100e0e;
@@ -69,6 +70,7 @@ a:visited {
     color: #100e0e;
 } /*visited link*/
 
+/*TO ADD: site logos on hover to replace text*/
 div.socials a:hover,
 div.socials a:focus {
     color: goldenrod;
@@ -78,40 +80,14 @@ div.socials a:focus {
 }
 
 /*
-GRADIENT CODE COPY
-body {
-    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
-}
-
-@keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
-PSEUDO CLASS orig COPY FOR REVERT
-.bio:hover,
-.bio:focus {
-    color: goldenrod;
-    background: #100e0e;
-    transition: all 0.65s ease-in-out;
 
 PSEUDO CLASS switch COPY
+
 .bio:hover,
 .bio:focus {
     color: #100e0e;
     background: goldenrod;
     transition: all 0.65s ease-in-out;
-}
-
 }
 
 */
