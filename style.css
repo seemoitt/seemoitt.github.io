@@ -34,7 +34,7 @@ h3.profile {
 p span:hover,
 p span:focus {
     color: white;
-    transition: all 0.6s ease-in-out;
+    transition: all 0.55s ease;
 }
 
 /* TO ADD: loading bars for et c. et c.*/
@@ -56,7 +56,7 @@ p span:focus {
     margin-right: 0.3%;
     border-radius: 0.5em;
     padding: 0.2% 0.29%;
-    border: 0.2em double #054e3c;
+    border: 0.2em double #ffffff;
 }
 
 div.socials {
@@ -64,7 +64,7 @@ div.socials {
 }
 
 a:link {
-    color: #000000;
+    color: #252525;
 } /*unvisited link*/
 a:visited {
     color: #100e0e;
